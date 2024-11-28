@@ -1,0 +1,60 @@
+.whychoose{
+    margin-top: 150px;
+}
+
+.whychoose .row{
+    display:flex;
+    margin: auto;
+    gap:150px;
+    padding-left: 100px;
+}
+
+
+.row .column{
+    flex-basis: 68%;
+}
+
+.column img{
+    width:90%;
+    margin-top: -100px;
+}
+
+
+
+
+.whychoose h1{
+ font-size: 48px;
+ text-align: center;
+ color: #212ea0;;
+}
+
+
+
+.column li{
+    margin-top: 20px;
+    line-height: 1.5em;
+    font-size: 18px;
+    color: #000920;
+    text-align: justify;
+}
+
+@media (max-width:770px) {
+    .whychoose .row{
+        flex-direction: column-reverse;
+    }
+    .whychoose .row{
+        gap:0px;
+        padding-left:0;
+    }
+    .whychoose h1{
+        font-size: 25px;
+       }
+
+       .whychoose{
+        margin-top: -60px;
+    }
+    .column li{
+        font-size: 15px;
+    }
+    
+}

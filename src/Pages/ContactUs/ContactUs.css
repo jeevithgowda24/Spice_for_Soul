@@ -1,0 +1,43 @@
+.contact-us h1{
+    font-size: 48px;
+    text-align: center;
+    color: rgb(165, 121, 0);
+}
+.contact-us{
+    max-width: 80%;
+    margin: auto;
+}
+.corner {
+    position: absolute;
+    width: 220px; /* Adjust the size of the images */
+    z-index: -100;
+}
+
+
+.top-left {
+    top: 25%;
+    left: -5%;
+}
+
+.top-right {
+    top: 8%;
+    right: 0px;
+}
+
+.bottom-left {
+    bottom: 5%;
+    left: -3%;
+}
+
+.bottom-right {
+    bottom: 5%;
+    right: 0%;
+}
+
+
+@media (max-width:750px) {
+    .contact-us{
+        max-width: 95%;
+    }
+
+}

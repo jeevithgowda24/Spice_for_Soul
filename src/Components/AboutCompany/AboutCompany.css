@@ -1,0 +1,135 @@
+/* .About-Company{
+    width:80%;
+    margin: auto;
+} */
+
+.About-Company h1{
+    text-align: center;
+    font-size: 38px;
+    color: #212ea0;
+}
+
+
+.About-Company .about-row{
+    display: flex;
+    margin: auto;
+    gap:10px;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.about-row .about-col{
+    flex-basis: 48%;
+}
+
+.about-col img{
+    width:99%;
+    border-radius: 10px;
+}
+
+.about-col p{
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.about-col p span{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 32, 90);
+    text-transform: uppercase;
+}
+
+.vis-mis-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.vision{
+    display: flex;
+    gap: 25px;
+    flex-basis: 50%;
+}
+
+.vision img{
+    width:100px;
+    height: 100px;
+}
+
+.mission{
+    display: flex;
+    gap: 25px;
+    flex-basis: 50%;
+}
+
+.mission img{
+    width:100px;
+    height: 100px;
+}
+
+.vis-mis-container p{
+    font-weight: 200;
+    text-align: justify;
+}
+
+.vis-mis-container p span{
+    font-weight: 400;
+    color: rgb(0, 32, 90);
+}
+
+.vis-mis-container h3{
+    color: #212ea0;
+}
+
+
+@media (max-width: 768px) {
+
+    .About-Company{
+        width:85%;
+        margin: auto;
+    }
+   
+.About-Company .about-row{
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.about-col img{
+    width:100%;
+}
+
+.About-Company h1{
+    font-size: 28px;
+
+}
+
+.about-col p{
+    font-size: 16px;
+}
+
+.about-col p span{
+    font-size: 16px;
+}
+
+.vis-mis-container{
+    flex-direction: column;
+    gap: 30px;
+
+}
+.vision img, .mission img{
+    width:80px;
+    height: 80px;
+}
+
+.vision-dec h3,.mission-dec h3{
+    font-size: 18px;
+}
+
+.vision-dec p,.mission-dec p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+  }  

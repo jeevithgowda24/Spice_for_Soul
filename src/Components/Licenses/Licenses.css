@@ -1,0 +1,33 @@
+.heading{
+    text-align: center;
+    font-size: 38px;
+    color: #212ea0;
+    margin-top: 40px;
+}
+
+.license-img-container img{
+    max-width: 95px;
+}
+
+.license-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    margin: 25px auto;
+    flex-wrap: wrap;
+}
+
+@media (max-width:750px) {
+    .licenses{
+          width: 95%;
+          margin: auto;
+    }
+    .license-img-container img{
+        max-width: 80px;
+
+    }
+    .license-img-container{
+        gap: 35px;
+    }
+}

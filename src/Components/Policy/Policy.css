@@ -1,0 +1,52 @@
+.heading{
+    text-align: center;
+    font-size: 38px;
+    color: #212ea0;
+    margin-top: 40px;
+}
+
+.policy-container .policy{
+    margin-top: 40px;
+}
+.policy p{
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.policy p span{
+    font-weight: 600;
+}
+
+.policy-container h3{
+    color: #000e91;
+    font-size: 22px;
+}
+
+
+@media (max-width:750px) {
+
+    .heading{
+        font-size: 28px;
+    }
+
+    .policy-container{
+        max-width: 85%;
+        margin: auto;
+    }
+     
+    .policy-container .policy{
+        margin-top: 30px;
+    }
+
+    .policy p{
+        font-size: 14px;
+    }
+
+    .policy-container h3{
+        font-size: 18px;
+    }
+    
+
+}

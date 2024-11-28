@@ -1,0 +1,41 @@
+.products-display{
+    background-position:center;
+    background-size: cover;
+    position:relative;
+}
+
+.corner {
+    position: absolute;
+    width: 250px; /* Adjust the size of the images */
+    z-index: -100;
+}
+
+
+.top-left {
+    top: 20%;
+    left: -5.5%;
+}
+
+.top-right {
+    top: 0%;
+    right: 0px;
+}
+
+.bottom-left {
+    bottom: 25%;
+    left: -3%;
+}
+
+.bottom-right {
+    bottom: 5%;
+    right: 0px;
+}
+
+
+
+@media (max-width: 768px) {
+   
+    #images{
+        display: none;
+    }
+  }  

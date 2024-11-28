@@ -1,0 +1,40 @@
+.AboutPage{
+    width:80%;
+    margin: auto;
+}
+
+
+.corner {
+    position: absolute;
+    width: 250px; /* Adjust the size of the images */
+    z-index: -100;
+}
+
+
+.top-left {
+    top: 25%;
+    left: -6%;
+}
+
+.top-right {
+    top: 5%;
+    right: 0px;
+}
+
+.bottom-left {
+    bottom: 0%;
+    left: -5%;
+}
+
+.bottom-right {
+    bottom: 5%;
+    right: 0px;
+}
+
+@media (max-width:750px) {
+    .AboutPage{
+        width:100%;
+        margin: auto;
+    }
+    
+}
